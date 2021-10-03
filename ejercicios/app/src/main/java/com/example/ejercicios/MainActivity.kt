@@ -9,6 +9,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         //operario("Joshua",20,12,1)
         //tabla(2,10)
+        //Empleado("Joshua",500,"Mantenimiento","Inspector",10)
+        Dado(2).Tiro()
     }
 
     fun operario(nombre:String,pagohora:Int,HorasTrabajadas:Int,horasextras:Int){
@@ -30,8 +32,5 @@ class MainActivity : AppCompatActivity() {
             println("$tabla * $num = $resultado ")
         }
     }
-    fun empleado(){
-        var empleado1 = Empleado("joshua", 450,"lavanderia","Administrador",2)
 
-    }
 }
